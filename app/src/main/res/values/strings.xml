@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">FetchApp</string>
+    <string name="item_text">List ID: %1$d, Name: %2$s</string>
+    <string name="expand_arrow">expand/collapse</string>
+
+</resources>
