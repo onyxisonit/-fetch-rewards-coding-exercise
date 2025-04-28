@@ -1,9 +1,19 @@
+/**
+ * FetchRepository.kt
+ *
+ * Repository layer responsible for fetching data from the API and filtering/sorting it
+ * before exposing it to the ViewModel.
+ *
+ * Created by onyxisonit in 2025.
+ * Licensed for Fetch Rewards coding exercise submission.
+ */
+
 package com.example.fetchapp.data.repository
 
 import com.example.fetchapp.data.model.FetchItem
 import com.example.fetchapp.data.network.RetrofitInstance
 
-/*
+/**
 * below, I am sorting assuming name is in consistent format of "Item number"
 * (since I have access to the entire dataset and it is a small dataset)
 * if we did not have direct access to the data/ it was a larger dataset we can use a custom comparator instead:
@@ -31,7 +41,7 @@ class FetchRepository {
             .sortedWith( compareBy ({ it.listId }, { extractNumber(it.name) }) )
     }
 
-    public fun extractNumber(name: String?): Int? {
+    fun extractNumber(name: String?): Int? {
         return name
             ?.substringAfter("Item ")
             ?.toIntOrNull()

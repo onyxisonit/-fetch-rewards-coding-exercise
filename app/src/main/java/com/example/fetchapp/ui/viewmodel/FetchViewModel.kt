@@ -1,3 +1,13 @@
+/**
+ * FetchViewModel.kt
+ *
+ * ViewModel for managing sections grouped by listId,
+ * fetching data through the repository, and exposing it to the UI layer.
+ *
+ * Created by onyxisonit in 2025.
+ * Licensed for Fetch Rewards coding exercise submission.
+ */
+
 package com.example.fetchapp.ui.viewmodel
 
 import androidx.lifecycle.LiveData

@@ -1,3 +1,13 @@
+/**
+ * FetchAdapter.kt
+ *
+ * Simple RecyclerView Adapter to display a flat list of FetchItem objects.
+ * Used when sections are not required (would need to bind to this adapter instead of section).
+ *
+ * Created by onyxisonit in 2025.
+ * Licensed for Fetch Rewards coding exercise submission.
+ */
+
 package com.example.fetchapp.ui.view
 
 import android.view.LayoutInflater

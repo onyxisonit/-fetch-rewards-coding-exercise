@@ -1,3 +1,13 @@
+/**
+ * SectionAdapter.kt
+ *
+ * RecyclerView Adapter to display sections grouped by listId, supporting expandable and collapsible headers.
+ * Manages headers and item view types dynamically.
+ *
+ * Created by onyxisonit in 2025.
+ * Licensed for Fetch Rewards coding exercise submission.
+ */
+
 package com.example.fetchapp.ui.view
 
 import android.view.LayoutInflater
